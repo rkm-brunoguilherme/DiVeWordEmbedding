@@ -5,7 +5,7 @@ authors are removed for double blind review
 ### Requirements
 1. Python 2.7
 2. Numpy 1.65
-3. Pandas 
+3. Pandas 0.24
 
 ### Input Data
 DiVe receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
