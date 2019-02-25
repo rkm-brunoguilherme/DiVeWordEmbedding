@@ -11,7 +11,7 @@ from scipy.spatial.distance import cityblock
 from scipy.spatial.distance import braycurtis
 from scipy.spatial.distance import canberra
 
-class DSWEwordEmbedding:
+class DiVewordEmbedding:
 
     N = 0
 
