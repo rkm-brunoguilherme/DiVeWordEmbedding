@@ -10,6 +10,7 @@ authors are removed for double blind review
 ### Input Data
 DiVe receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
 Each file should have one sentence per line as follows (space delimited): \
+`...`\
 `weaknesses minor feel layout remote control n show complete file names mp3s.`\
 `normal size sorry ignorant way get back 1x quickly.` \
 `many disney movies n play dvd player` \
@@ -17,6 +18,7 @@ Each file should have one sentence per line as follows (space delimited): \
 
 ### Training DiVe
 For training DiVe you need choose a model a type the follow command:\
+
 ` python DiVeDualPoint.py data.txt wordsVectors.out`\
 wordsVectors.out will be the output, each word in vocabulary represents a line and its coordenates in the embedding, as:
 `house -1.0 2.4 -0.3 ... ` \
@@ -28,8 +30,8 @@ Please make sure to cite the papers when its use for represents word similarity 
 
 Please cite the following paper if you use this implementation:\
 `
-@InProceedings{XxX,`\
-  `author    = {XxX, YyY, ZzZ, SsS, DdD, EeE},`\
+@InProceedings{removed,`\
+  `author    = {removed},`\
   `title     = {DiVe: Distance based Vectors Embedding technique for effective text classification},`\
-  `booktitle = {Proceedings of ACL},`\
-  `year      = {2019} }`
+  `booktitle = {Proceedings of WSDM},`\
+  `year      = {2020} }`
