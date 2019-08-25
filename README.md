@@ -2,10 +2,27 @@
 authors are removed for double blind review 
 ***
 
+In this repository we present DiVe (Distance-based Vector Embedding), a new word embedding technique based on a scalable Markovian statistical model to represent sequences of words. Our experiments demonstrate that DiVe is able to outperform existing (more complex) machine learning approaches, while preserving simplicity and scalability.
+
 ### Requirements
 1. Python 2.7
 2. Numpy 1.65
 3. Pandas 0.24
+
+
+### Datasets already used for text representation 
+
+|name | task | vocabulary | size | classes  |
+|----------	|------------------------------	|-----------:|----------:|:-----------:|
+|[CR](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | User review polarity | 5176 | small | 2 |
+|[HSTW](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Hate speech detect| 23739 | large |3  |
+|[PO](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)| Sentece polarity | 18179| large |  2 |
+|[SIM](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Movie and TV Review | 1000 | small|  2|
+|[YR](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Food review polarity | 1000| small| 2|
+|[SUBJ](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm) | Subjectivity and objectivity | 18179 | large | 2 |
+|[AR](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | User product review  | 1000| small | 2  |
+|[QTS](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Question Answering  | 16504 | small | 6  |
+|[IM](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Movie and TV Review | 74337| large| 2 | 
 
 ### Input Data
 DiVe receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
@@ -16,6 +33,10 @@ Each file should have one sentence per line as follows (space delimited): \
 `many disney movies n play dvd player` \
 `...`
 
+###  Analysis of parameter α in similarity function f
+
+In our work, we demonstrate that α can easily change the model accuracy, as follows, in figures~\ref{sec:alpha} (left) and ~\ref{sec:alpha} (right) compare results of DiVe Single and Dual models. In both cases we observe a large variation in terms of F$_1$ depending on $\alpha$. For example, for the QTS dataset, the F$_1$ score has almost 30\% variation for the DiVe Dual Point model, and 10.5\% variation for the Single Point model, and for SUBJ dataset 18\% for Dual Point and almost 20\% for Single Point. This shows that $\alpha$ can significantly influence an estimator's accuracy, therefore, this results which suggests that it is worth setting this hyperparameter using cross-validation instead of keeping it fixed.
+
 ### Training DiVe
 For training DiVe you need choose a model a type the follow command:\
 
@@ -23,6 +44,12 @@ For training DiVe you need choose a model a type the follow command:\
 wordsVectors.out will be the output, each word in vocabulary represents a line and its coordenates in the embedding, as:
 `house -1.0 2.4 -0.3 ... ` \
 `car 1.5 0.01 -0.2 -1.1 ...`
+
+###  Performance of classifiers with trained embeddings
+We compare the quality of the embeddings obtained with DiVe to the following word embeddings baseline techniques: Word2Vec, Glove, Bayesian SkipGram and FastText. The embeddings were trained on the specific dataset whose sentences we want to classify.
+
+
+
 
 ### Reference
 
