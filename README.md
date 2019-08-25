@@ -52,8 +52,9 @@ wordsVectors.out will be the output, each word in vocabulary represents a line a
 ###  Performance of classifiers with trained embeddings
 We compare the quality of the embeddings obtained with DiVe to the following word embeddings baseline techniques: Word2Vec, Glove, Bayesian SkipGram and FastText. The embeddings were trained on the specific dataset whose sentences we want to classify.
 
-|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title")  | ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title") | ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title")|
-
+Solarized dark             |  Solarized Ocean|  Solarized Ocean
+:-------------------------:|:-------------------------:|:-------------------------:
+!![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png "Title")
 
 ### Reference
 
