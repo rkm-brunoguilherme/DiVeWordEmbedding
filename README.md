@@ -33,6 +33,14 @@ Each file should have one sentence per line as follows (space delimited): \
 `many disney movies n play dvd player` \
 `...`
 
+### Training DiVe
+For training DiVe you need choose a model a type the follow command:\
+
+` python DiVeDualPoint.py data.txt wordsVectors.out`\
+wordsVectors.out will be the output, each word in vocabulary represents a line and its coordenates in the embedding, as:
+`house -1.0 2.4 -0.3 ... ` \
+`car 1.5 0.01 -0.2 -1.1 ...`
+
 ###  Analysis of parameter α in similarity function f
 
 In our work, we demonstrate that α can easily change the model accuracy, as follows,
@@ -41,13 +49,10 @@ In our work, we demonstrate that α can easily change the model accuracy, as fol
 
 we compare results of DiVe Single and Dual models. In both cases we observe a large variation in terms of F1 depending on α. For example, for the QTS dataset, the F1 score has almost 30% variation for the DiVe Dual Point model, and 10.5\% variation for the Single Point model, and for SUBJ dataset 18\% for Dual Point and almost 20% for Single Point. This shows that α can significantly influence an estimator's accuracy, therefore, this results which suggests that it is worth setting this hyperparameter using cross-validation instead of keeping it fixed.
 
-### Training DiVe
-For training DiVe you need choose a model a type the follow command:\
 
-` python DiVeDualPoint.py data.txt wordsVectors.out`\
-wordsVectors.out will be the output, each word in vocabulary represents a line and its coordenates in the embedding, as:
-`house -1.0 2.4 -0.3 ... ` \
-`car 1.5 0.01 -0.2 -1.1 ...`
+Inner product Embedding|  Euclidean Embedding|
+:-------------------------:|:-------------------------:|
+![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/cosine.png  "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/euclidean.png  "Title")
 
 ###  Performance of classifiers with trained embeddings
 We compare the quality of the embeddings obtained with DiVe to the following word embeddings baseline techniques: Word2Vec, Glove, Bayesian SkipGram and FastText. The embeddings were trained on the specific dataset whose sentences we want to classify.
