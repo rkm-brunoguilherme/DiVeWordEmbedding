@@ -56,7 +56,6 @@ IM             |  CR|  HSTW
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/polarity(1).png  "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/polarity(1).png  "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/polarity(1).png "Title")
 PO             |  YR|  QS
-:-------------------------:|:-------------------------:|:-------------------------:
 ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/polarity(1).png "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/polarity(1).png "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/question(1).png "Title")
 
 
