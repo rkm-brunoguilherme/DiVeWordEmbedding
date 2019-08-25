@@ -14,15 +14,15 @@ In this repository we present DiVe (Distance-based Vector Embedding), a new word
 
 |name | task | vocabulary | size | classes  |
 |----------	|------------------------------	|-----------:|----------:|:-----------:|
-|[CR](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | User review polarity | 5176 | small | 2 |
-|[HSTW](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Hate speech detect| 23739 | large |3  |
-|[PO](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)| Sentece polarity | 18179| large |  2 |
-|[SIM](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Movie and TV Review | 1000 | small|  2|
-|[YR](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Food review polarity | 1000| small| 2|
-|[SUBJ](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm) | Subjectivity and objectivity | 18179 | large | 2 |
-|[AR](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | User product review  | 1000| small | 2  |
-|[QTS](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Question Answering  | 16504 | small | 6  |
-|[IM](https://nlp.stanford.edu/~sidaw/home/projects:nbsvm)  | Movie and TV Review | 74337| large| 2 | 
+|[CR](https://github.com/davidsbatista/Aspect-Based-Sentiment-Analysis/tree/master/datasets/CR)  | User review polarity | 5176 | small | 2 |
+|[HSTW](https://github.com/zeerakw/hatespeech)  | Hate speech detect| 23739 | large |3  |
+|[PO](https://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz)| Sentece polarity | 18179| large |  2 |
+|[SIM](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | Movie and TV Review | 1000 | small|  2|
+|[YR](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | Food review polarity | 1000| small| 2|
+|[SUBJ](http://www.cs.cornell.edu/people/pabo/movie-review-data/rotten_imdb.tar.gz) | Subjectivity and objectivity | 18179 | large | 2 |
+|[AR](https://github.com/hallr/DAT_SF_19/blob/master/data/yelp_labelled.txt)  | User product review  | 1000| small | 2  |
+|[QTS](http://cogcomp.org/Data/QA/QC/)  | Question Answering  | 16504 | small | 6  |
+|[IM](https://drive.google.com/file/d/0B8yp1gOBCztyN0JaMDVoeXhHWm8/)  | Movie and TV Review | 74337| large| 2 | 
 
 ### Input Data
 DiVe receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
