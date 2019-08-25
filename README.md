@@ -67,6 +67,7 @@ IM             |  CR|  HSTW
 PO             |  YR|  QS
 ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/polarity(1).png "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/polarity(1).png "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/question(1).png "Title")
 
+Our results showed that DiVe overcome four popular word embedding, namely Word2Vec, Glove, FastText e Bayesian Skip Gram, and more than 9 datasets.
 
 ### Reference
 
