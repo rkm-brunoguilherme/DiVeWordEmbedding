@@ -28,8 +28,8 @@ In this repository we present DiVe (Distance-based Vector Embedding), a new word
 DiVe receive as input any sequence of strings(sentences), each string of trainning corpus will be map to a vector.
 Each file should have one sentence per line as follows (space delimited): \
 `...`\
-`weaknesses minor feel layout remote control n show complete file names mp3s.`\
-`normal size sorry ignorant way get back 1x quickly.` \
+`weaknesses minor feel layout remote control show complete file names mp3s`\
+`normal size sorry ignorant way get back 1x quickly` \
 `many disney movies n play dvd player` \
 `...`
 
