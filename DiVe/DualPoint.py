@@ -425,9 +425,6 @@ import sys
 
 if __name__ == '__main__':
     
-    
-    print sys.argv
-    
     fh = open(sys.argv[1],'r')
     sentences = []
     for line in fh:
@@ -445,8 +442,6 @@ if __name__ == '__main__':
     #sentences = [x.strip() for x in content] 
 
     sentences = np.array(sentences)
-    
-    print sentences[0]
     vec,out,voc = main(dataset=sentences,size=400,window=5,d=0,lamba=1.0)
     
     fi = open(sys.argv[2],"w+")
