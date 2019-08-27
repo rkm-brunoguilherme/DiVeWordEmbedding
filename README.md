@@ -69,6 +69,16 @@ PO             |  YR|  QS
 
 Our results showed that DiVe overcome four popular word embedding, namely Word2Vec, Glove, FastText e Bayesian Skip Gram, and more than 9 datasets.
 
+In addition, we conducted a hypothesis test on whether DiVe’s model is in fact different from others, based on McNemar’s test to know more about this test check https://towardsdatascience.com/statistical-tests-for-comparing-machine-learning-and-baseline-performance-4dfc9402e46f and https://machinelearningmastery.com/statistical-significance-tests-for-comparing-machine-learning-algorithms/. In next figures we show the heat maps of p-values for all combinations of DiVe and classifiers and Word2Vec or Glove and classifiers, respectively, in the PO
+dataset. Comparing the two heat maps, we observe that there are a lot of values < 0.05 that deny the null hypothesis, besides that, we plot the p-values from McNemar’s test as a CDF for all word embeddings, separated by dataset. We
+can see that 2 out of 9 datasets (AR and YR) have < 40% of p-values < 0.05. In the remaining datasets, there are ≥ 60%
+of p-values < 0.05.
+
+Glove             |  Word2Vec|  All baselines for all datasets
+:-------------------------:|:-------------------------:|:-------------------------:
+![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png  "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/gg.png  "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/cdfs.png "Title")
+
+
 ### Reference
 
 Please make sure to cite the papers when its use for represents word similarity by word embedding.
