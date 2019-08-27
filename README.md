@@ -76,7 +76,7 @@ of p-values < 0.05.
 
 Glove             |  Word2Vec|  All baselines for all datasets
 :-------------------------:|:-------------------------:|:-------------------------:
-![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/go.png  "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/gg.png  "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/cdfs.png "Title")
+![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/heatw2v.png  "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/hetmapw2.png  "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/cdfs.png "Title")
 
 
 ### Reference
