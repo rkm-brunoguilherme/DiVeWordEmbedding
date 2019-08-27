@@ -335,8 +335,8 @@ def main():
             [test_input_ids, test_input_masks, test_segment_ids],
             test_labels,
         ),
-        epochs=1,
-        batch_size=32,
+        epochs=3,
+        batch_size=1232,
     )
 
 
