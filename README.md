@@ -104,5 +104,5 @@ Please cite the following paper if you use this implementation:\
 @InProceedings{removed,`\
   `author    = {removed},`\
   `title     = {DiVe: Distance based Vectors Embedding technique for effective text classification},`\
-  `booktitle = {Proceedings of WSDM},`\
+  `booktitle = {Maybe appear in WSDM'20},`\
   `year      = {2020} }`
