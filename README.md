@@ -88,6 +88,13 @@ and CR), and outperformed BERT in 3 classification tasks
 
 
 ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/Goes2.png "Title") 
+
+
+In this work we introduced DiVe (Distance-based Vector Embedding), a new word embedding technique based on a
+scalable Markovian statistical model to represent sequences of words. Our experiments showed that DiVe is a scalable
+model for representing word sequences. One of the main building blocks od DiVe is an efficient algorithm to estimate
+the partition function, which has been the main limitation of embedding techniques based on Markovian statistical models. In this work we used the F 1 score to evaluate the general quality of the word embeddings produced by DiVe in text classification tasks. In future work, we will analyze other metrics to capture how well human-perceived similarities and opposite-polarity words are represented by DiVe. We also plan to enhance the algorithm with context aware information, such as sentiment-related tagging.
+
 ### Reference
 
 Please make sure to cite the papers when its use for represents word similarity by word embedding.
