@@ -79,6 +79,15 @@ Glove             |  Word2Vec|  All baselines for all datasets
 ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/heatglove.png  "Title") |  ![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/heatw2v.png  "Title")|![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/cdfs.png "Title")
 
 
+###  Performance of classifiers with pre-trained embeddings
+
+We also evaluate results from deep learning techniques ELMo and BERT. We used these baselines as pre-trained embeddings, they were trained on a large dataset (Wikipedia and BookCorpus) and used to classification task. These techniques represent the state-of-the-art techniques for several NLP tasks. We can see that DiVe, even without tuning the f function,
+outperformed ELMo in 4 classification tasks (YR, HSTW, AR,
+and CR), and outperformed BERT in 3 classification tasks
+(SUBJ, HSTW and YR)
+
+
+![Figure 1 ](https://github.com/DiVeWord/DiVeWordEmbedding/blob/master/figs/Goes2.png "Title") 
 ### Reference
 
 Please make sure to cite the papers when its use for represents word similarity by word embedding.
