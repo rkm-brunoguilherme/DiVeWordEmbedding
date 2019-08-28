@@ -102,7 +102,7 @@ Please make sure to cite the papers when its use for represents word similarity 
 Please cite the following paper if you use this implementation:\
 `
 @InProceedings{?,`\
-  `author    = {removed},`\
+  `author    = {removed for double blind review},`\
   `title     = {DiVe: Distance based Vectors Embedding technique for effective text classification},`\
-  `booktitle = {Maybe appear in WSDM'20},`\
+  `booktitle = {WSDM'20},`\
   `year      = {2020} }`
