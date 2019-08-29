@@ -41,6 +41,16 @@ wordsVectors.out will be the output, each word in vocabulary represents a line a
 `house -1.0 2.4 -0.3 ... ` \
 `car 1.5 0.01 -0.2 -1.1 ...`
 
+### Word Similariy 
+
+
+Wordsimilarity task is commonly used as a evaluation method for word-embeddings, this task investigate how your vector capture semantics between word pairs. For DiVe in most famous datasets we have the following results:
+
+| Model  | GSem | GSyn | MSR | RW | SimLex | SCWS | WS-Sim | WS-Rel | MEN | MTurk | 
+| -----  | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| DiVe Dual| **81.1%** | **68.7%** | **63.7%** | **.489** | **.384** | **.652** | .727 | .619 | .759 | .655 | 
+| DiVe Single | 79.3% | 62.6% | 56.4% | .476 | .362 | .629 | .734 | **.663** | **.772** | .649 |
+
 ###  Analysis of parameter α in similarity function f
 
 In our work, we demonstrate that α can easily change the model accuracy, as follows,
