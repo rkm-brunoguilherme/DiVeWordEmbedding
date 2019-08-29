@@ -38,8 +38,10 @@ For training DiVe you need choose a model a type the follow command:\
 
 ` python DualPoint.py data.txt wordsVectors.out`\
 wordsVectors.out will be the output, each word in vocabulary represents a line and its coordenates in the embedding, as:
+`...`\
 `house -1.0 2.4 -0.3 ... ` \
 `car 1.5 0.01 -0.2 -1.1 ...`
+`...`\
 
 ###  Analysis of parameter α in similarity function f
 
